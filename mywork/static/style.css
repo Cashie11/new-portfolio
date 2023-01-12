@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: antiquewhite;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+nav .logo{
+    width: 200px;
+    color: white;
+    border: 2px solid white;
+    color: #6880e7;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    background: transparent;
+    color: #000;   
+}
+
+.btn{
+    border: 2px solid 6880e7;
+    padding: 9px 28px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #000;
+}
+
+header{
+    color: black;
+}
+
+header ul li a:hover{
+    color: rgb(68, 66, 196);
+}
+
+header ul li:not(:last-child) a:hover{
+    color: #6880e7;
+    transition: .4s;
+}
+
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detail p{
+    color: #555;
+    line-height: 20px;
+}
+
+.detail h1{
+    margin-bottom: 10px;
+}
+
+.detail a{
+    background: #212121;
+    padding: 5px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.me{
+    margin-bottom: 5px;
+}
+
+.me a:hover{
+    background: transparent;
+    border: 2px solid #212121;
+    color: #6880e7;
+    transition: .4s;
+}
+
+.icons{
+    color: #fff;
+}
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+.girl{
+    width: 500px;
+    max-height: 500px;
+    margin-bottom: 180px;
+    border-radius: 10px;
+}
+
+.images:hover .abeg{
+    bottom: 40px;
+}
+
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: rgb(46, 43, 43);
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background: #6880e7;
+    transition: .4s;
+}
+
+.buttom{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.buttom p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+
+@media screen and (max-width: 930px){
+    nav .hamb{
+        display: initial;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .images{
+        display: none;
+    }
+
+
+    .hero{
+        height: 600px;
+    }
+
+    .portfolio .container{
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .header{
+        margin-right: 30px;
+    }
+/* 
+    nav{
+
+    } */
+
+    .fw-bold{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.card-text{
+    text-align: left;
+}
+
+.card-title{
+    text-align: left;
+}
+    
+
+i{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.portfolio{
+    align-items: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.portfolio p{
+    color: #212121;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.portfolio h2{
+    text-align: center;
+    font-size: 50px;
+    color: #212121;
+}
+
+
+.portfolio img{
+    margin-bottom: 5px;
+}
+
+.col{
+    margin-bottom: 20px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+}
+
+
+.hom{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.sam{
+    background: antiquewhite;
+}
+
+.zen{
+    width: 700px;
+}
+
+
+
+
+
+/* Check out 10 Best Design's updates for the top web design & development companies.</p> */
